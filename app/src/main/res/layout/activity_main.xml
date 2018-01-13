@@ -8,8 +8,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@color/bkgndColour"
-    tools:context="com.londonappbrewery.bitcointicker.MainActivity">
+    android:background="@drawable/gradient"
+    tools:context="smith.drake.kato.bitcointickerandroid.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -45,6 +45,7 @@
             android:text="@string/base"
             android:textSize="30sp"
             android:textStyle="bold"
+            android:textColor="@color/white"
             android:id="@+id/textView"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
